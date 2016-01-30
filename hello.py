@@ -28,4 +28,4 @@ class Solver(object):
             raise Exception
 
 
-Solver().demo(2.0, 3.0, 6.0)
+Solver().demo(2.0, 3.0, 4.0)
