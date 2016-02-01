@@ -28,4 +28,29 @@ class Solver(object):
             raise Exception
 
 
-Solver().demo(2.0, 3.0, 4.0)
+# s = input('birth:')
+# birth = int(s)
+# if birth < 2000:
+#     print('00前')
+# else:
+#     print('00后')
+#
+# names = ['Michael', 'Bob', 'Tracy']
+# for name in names:
+#     print(name)
+
+
+# sum = 0
+# for x in range(101):
+#     sum += x
+# print(sum)
+
+sum = 0
+n = 99
+while n > 0:
+    sum += n
+    n -= 2
+print(sum)
+
+d = {'Michael': 95, 'Bob': 75, 'Tracy': 85}
+print(d['Michael'])
